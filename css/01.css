@@ -1,0 +1,34 @@
+@charset "uft-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.visual {
+    height: 500px;
+}
+.visual .visual-swiper {
+    height: 100%;
+}
+.visual .swiper-slide img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/* height은 하나 라도 건너띄면 상속x */
+
+.visual .swiper-slide .text {
+    width: 1280px;
+   /*  background-color: #ffffff86; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
